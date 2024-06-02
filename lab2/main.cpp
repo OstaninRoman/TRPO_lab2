@@ -1,8 +1,7 @@
 #include <QCoreApplication>
-#include "codefactory.h"
 #include "cppcodefactory.h"
 #include "csrpcodefactory.h"
-
+#include "javacodefactory.h"
 
 std::string generateProgram(std::shared_ptr<CodeFactory>& factory, std::string ClassName) {
     std::shared_ptr<ClassUnit> myClass = factory->createClass(std::string(ClassName));
@@ -24,6 +23,9 @@ int main(int argc, char *argv[]) {
 
     std::shared_ptr<CodeFactory> CSrpfactory = std::make_shared<CSrpCodeFactory>();
     std::cout << generateProgram(CSrpfactory, "MyCSrpClass") << std::endl;
+
+    std::shared_ptr<CodeFactory> Javafactory = std::make_shared<JavaCodeFactory>();
+    std::cout << generateProgram(Javafactory, "MyJavaClass") << std::endl;
 
     return a.exec();
 }

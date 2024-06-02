@@ -18,6 +18,10 @@ SOURCES += \
         csrpcodefactory.cpp \
         csrpmethodunit.cpp \
         csrpprintoperatorunit.cpp \
+        javaclassunit.cpp \
+        javacodefactory.cpp \
+        javamethodunit.cpp \
+        javaprintoperatorunit.cpp \
         main.cpp \
         methodunit.cpp \
         printoperatorunit.cpp \
@@ -39,6 +43,10 @@ HEADERS += \
     csrpcodefactory.h \
     csrpmethodunit.h \
     csrpprintoperatorunit.h \
+    javaclassunit.h \
+    javacodefactory.h \
+    javamethodunit.h \
+    javaprintoperatorunit.h \
     methodunit.h \
     printoperatorunit.h \
     unit.h
