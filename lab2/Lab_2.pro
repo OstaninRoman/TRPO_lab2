@@ -14,6 +14,10 @@ SOURCES += \
         cppcodefactory.cpp \
         cppmethodunit.cpp \
         cppprintoperatorunit.cpp \
+        csrpclassunit.cpp \
+        csrpcodefactory.cpp \
+        csrpmethodunit.cpp \
+        csrpprintoperatorunit.cpp \
         main.cpp \
         methodunit.cpp \
         printoperatorunit.cpp \
@@ -31,6 +35,10 @@ HEADERS += \
     cppcodefactory.h \
     cppmethodunit.h \
     cppprintoperatorunit.h \
+    csrpclassunit.h \
+    csrpcodefactory.h \
+    csrpmethodunit.h \
+    csrpprintoperatorunit.h \
     methodunit.h \
     printoperatorunit.h \
     unit.h

@@ -10,7 +10,7 @@ class CodeFactory
 public:
     using Flags = unsigned int;
     CodeFactory() = default;
-   virtual ~CodeFactory() = default;
+    virtual ~CodeFactory() = default;
 
     virtual std::shared_ptr<ClassUnit> createClass(const std::string& name) = 0;
     virtual std::shared_ptr<MethodUnit> createMethod(const std::string& name, const std::string& returnType, Flags flags) = 0;
