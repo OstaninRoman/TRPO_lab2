@@ -8,24 +8,16 @@ CONFIG -= app_bundle
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        classunit.cpp \
-        codefactory.cpp \
         cppclassunit.cpp \
         cppcodefactory.cpp \
         cppmethodunit.cpp \
-        cppprintoperatorunit.cpp \
         csrpclassunit.cpp \
         csrpcodefactory.cpp \
         csrpmethodunit.cpp \
-        csrpprintoperatorunit.cpp \
         javaclassunit.cpp \
         javacodefactory.cpp \
         javamethodunit.cpp \
-        javaprintoperatorunit.cpp \
-        main.cpp \
-        methodunit.cpp \
-        printoperatorunit.cpp \
-        unit.cpp
+        main.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
